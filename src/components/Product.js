@@ -24,12 +24,12 @@ class Product extends Component {
                     <div className="card-body">
                     <h5 className="card-title">{this.props.name}</h5>
                     <p className="card-text">{this.props.price}</p>
-                    <a className="btn btn-success" 
+                    <button className="btn btn-success" 
                         onClick={ this.onBuyNow }
-                        >Buy Now</a> &nbsp;
-                    <a className="btn btn-primary" 
+                        >Buy Now</button> &nbsp;
+                    <button className="btn btn-primary" 
                         onClick={ this.onViewNow }
-                        >View Now</a>
+                        >View Now</button>
                     </div>
             </div>
         </div>
