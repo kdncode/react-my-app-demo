@@ -8,12 +8,12 @@ class Product extends Component {
   }
 
   onBuyNow() {
-      alert(this.props.name)
+      alert(this.props.name);
   }
 
   // for View now button (short & fast method)
   onViewNow = () => {
-      alert(this.props.price)
+      alert(this.props.price);
   }
 
   render() {
