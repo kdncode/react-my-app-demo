@@ -32,15 +32,15 @@ class Product extends Component {
                 <div className="card container" style={{ width: '18rem' }}>
                         <img className="card-img-top" src={this.props.image} alt="Card img cap" />
                         <div className="card-body">
-                        <h5 className="card-title">{this.props.name}</h5>
-                        <p className="card-text">{this.props.price}</p>
-                        <button className="btn btn-success" 
-                            onClick={ this.onBuyNow }
-                            >Buy Now</button> &nbsp;
+                            <h5 className="card-title">{this.props.name}</h5>
+                            <p className="card-text">{this.props.price}</p>
+                            <button className="btn btn-success" 
+                                onClick={ this.onBuyNow }
+                                >Buy Now</button> &nbsp;
 
-                        <button className="btn btn-primary" 
-                            onClick={ this.onViewNow }
-                            >View Now</button>
+                            <button className="btn btn-primary" 
+                                onClick={ this.onViewNow }
+                                >View Now</button>
                         </div>
                 </div>
             </div>

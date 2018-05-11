@@ -41,7 +41,7 @@ class App extends Component {
     //     this.setState( { isActive : true })
     // }
 
-    // Or
+    // Or use this
     this.setState( { isActive : !this.state.isActive })
   }
 
@@ -91,7 +91,6 @@ class App extends Component {
     );
   }
 }
-
 
 // class App extends Component {
 
