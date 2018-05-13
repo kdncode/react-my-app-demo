@@ -94,7 +94,7 @@ class App extends Component {
 // class App extends Component {
 
 //   OnClickMe() {
-//       alert('hello')
+//       alert('hello');
 //   }
 
 //   render() {
