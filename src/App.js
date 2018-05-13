@@ -3,7 +3,7 @@ import Header from './components/Header';
 
 /* STATE */
 class App extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             products : [
