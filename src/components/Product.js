@@ -4,7 +4,7 @@ class Product extends Component {
   // for Buy Now button (long method)
   constructor(props){
       super(props)
-      this.onBuyNow = this.onBuyNow.bind(this)
+      this.onBuyNow = this.onBuyNow.bind(this);
   }
 
   onBuyNow() {
