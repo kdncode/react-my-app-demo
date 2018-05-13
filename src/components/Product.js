@@ -17,7 +17,7 @@ class Product extends Component {
   }
 
   onAddProduct = () => {
-    console.log(this.refs.name.value)
+    console.log(this.refs.name.value);
   }
 
   render() {
